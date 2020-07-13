@@ -1,0 +1,273 @@
+/*Import typos */
+
+@font-face {
+    font-family: 'prime_script_personal_use_oRg';
+    src: url('webfont/primescript/primescript_personal_use-webfont.woff2') format('woff2'),
+         url('webfont/primescript/primescript_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geared_slabthin';
+    src: url('webfont/gearedlight/gearedslab-light-webfont.woff2') format('woff2'),
+         url('webfont/gearedlight/gearedslab-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geared_slabregular';
+    src: url('webfont/geared/gearedslab-webfont.woff2') format('woff2'),
+         url('webfont/geared/gearedslab-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Titres & textes */
+
+h1
+{
+	font-family: prime_script_personal_use_oRg;
+	font-size: 3em;
+	line-height: 0.3em
+}
+
+h1, h1+p
+{
+	text-align: left;
+}
+
+h2
+{
+	font-family: geared_slabthin;
+	text-transform: uppercase;
+	font-size: 2em;
+	letter-spacing: .1rem;
+	padding: 0px;
+}
+
+.blocjaune h2
+{
+	text-align: left;
+	color: #feca07;
+	margin: 0px;
+
+}
+
+.parcours h2
+{
+	text-align: left;
+	color: #404040;
+	margin-bottom: 50px;
+}
+
+
+
+ul, li
+{
+	list-style: none;
+}
+
+.bandeau
+{
+	text-align: center;
+	text-decoration: none;
+	padding: 2%;
+	background-color: #404040;
+	color: #FFFFFF;
+
+}
+
+
+/*blocs */
+
+body
+{
+	background-color: white;
+	font-family: arial, verdana, sans-serif;
+	font-style: 0.5em;
+	font-weight:normal;
+	margin: 0px;
+
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px pink solid;
+	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 100px;
+	max-width: 1190px;
+}
+
+#blocpage
+{
+	margin: auto;
+	max-width: 100%;
+	display: flex;
+	border : 3px solid blue;
+}
+
+#blocjaune
+{
+	display: inline-block;
+	width: 385px;
+	max-height: 100%;
+	background-color: #feca07;
+}
+
+.textecolonne
+{
+
+	border:2px grey solid;
+	margin-bottom: 50px;
+}
+
+#parcours
+{
+	display: inline-block;
+	margin-right: 45px;
+	margin-left: 65px;
+	width: 700px;
+	border : 1px solid red;
+}
+
+.XP
+{
+	display: flex;
+	margin-bottom: 20px;
+	border: 1px dotted black;
+}
+
+.lieu
+{
+	content: "far fa-circle";
+	list-style-image: "far fa-circle";
+	display: inline-block;
+	width: 220px;
+	border: 1px solid cyan;
+}
+
+section
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	vertical-align: top;
+	margin: auto;
+	margin-bottom: 50px;
+	border : 1px dashed green;
+}
+
+.info
+{
+	display: inline-block;
+	vertical-align: top;
+	justify-content: top;
+	width: 445px;
+	margin-left: 20%;
+	border:1px salmon solid;
+}
+
+
+/* Objets */
+
+#photo
+{
+	display: flex;
+	justify-content: center;
+}
+
+#photo img
+{
+	border-radius: 50%;
+	border : 3px #daaf12 solid;
+	width: 215px;
+	margin-top: 70px;
+	margin-bottom: 45px;
+}
+
+#nom
+{
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: 10%;
+	width: 70%;
+	border : 1px solid red;
+	padding-left: 5%;
+}
+
+i.fas
+{
+	color: #feca07;
+}
+
+.traitfin
+{
+	display: flex;
+	border : 1px #feca07 solid;
+
+}
+
+.trait
+{
+	display: flex;
+	border : 2px #feca07 solid;
+}
+
+.here
+{
+	content: 
+}
+
+.far
+{
+	color: #feca07;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 1280px)
+{
+	#blocpage
+	{
+		width: auto;
+	}
+
+	#blocjaune
+	{
+		width: 100%
+	}
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	section
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		width: 100%;
+	}
+
+	h1
+	{
+		font-size: 3em;
+	}
+
+		h2
+	{
+		font-size: 2em;
+	}
+}
