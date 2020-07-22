@@ -1,0 +1,13 @@
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\bin\Debug\netcoreapp3.1\CV-RomainDigue.exe
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\bin\Debug\netcoreapp3.1\CV-RomainDigue.deps.json
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\bin\Debug\netcoreapp3.1\CV-RomainDigue.runtimeconfig.json
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\bin\Debug\netcoreapp3.1\CV-RomainDigue.runtimeconfig.dev.json
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\bin\Debug\netcoreapp3.1\CV-RomainDigue.dll
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\bin\Debug\netcoreapp3.1\CV-RomainDigue.pdb
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\obj\Debug\netcoreapp3.1\CV-RomainDigue.csprojAssemblyReference.cache
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\obj\Debug\netcoreapp3.1\CV-RomainDigue.AssemblyInfoInputs.cache
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\obj\Debug\netcoreapp3.1\CV-RomainDigue.AssemblyInfo.cs
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\obj\Debug\netcoreapp3.1\CV-RomainDigue.csproj.CoreCompileInputs.cache
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\obj\Debug\netcoreapp3.1\CV-RomainDigue.dll
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\obj\Debug\netcoreapp3.1\CV-RomainDigue.pdb
+T:\_OPENCLASSROOMS\PROJET 2\CV\5. CV DIGUE Romain\CV-RomainDigue\CV-RomainDigue\obj\Debug\netcoreapp3.1\CV-RomainDigue.genruntimeconfig.cache

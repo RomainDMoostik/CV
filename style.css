@@ -1,39 +1,55 @@
 /*Import typos */
 
-@font-face {
-    font-family: 'prime_script_personal_use_oRg';
-    src: url('webfont/primescript/primescript_personal_use-webfont.woff2') format('woff2'),
-         url('webfont/primescript/primescript_personal_use-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
+/* Couleurs */
+
+.dark-primary-color {
+	background: #5D4037;
 }
 
-@font-face {
-    font-family: 'geared_slabthin';
-    src: url('webfont/gearedlight/gearedslab-light-webfont.woff2') format('woff2'),
-         url('webfont/gearedlight/gearedslab-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+.default-primary-color {
+	background: #795548;
 }
 
-@font-face {
-    font-family: 'geared_slabregular';
-    src: url('webfont/geared/gearedslab-webfont.woff2') format('woff2'),
-         url('webfont/geared/gearedslab-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+.light-primary-color {
+	background: #D7CCC8;
 }
+
+.text-primary-color {
+	color: #FFFFFF;
+}
+
+.accent-color {
+	background: #536DFE;
+}
+
+.primary-text-color {
+	color: #212121;
+}
+
+.secondary-text-color {
+	color: #757575;
+}
+
+.divider-color {
+	border-color: #BDBDBD;
+}
+
+
 
 /*Titres & textes */
 
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
 h1
 {
-	font-family: prime_script_personal_use_oRg;
 	font-size: 5em;
-	line-height: 0.9em
+	line-height: 0.9em;
+	font-weight:bold;
+	margin-top:15px;
+	margin-bottom:15px;
 }
 
 h1, h1+p
@@ -43,65 +59,91 @@ h1, h1+p
 
 #prenom 
 {
-	color: #feca07;
+	color: #795548;
 }
 
 #surligne {
-	text-decoration: solid underline #feca07 2px;
+	border-bottom: solid #536DFE 3px;
 }
 
 h2 {
-	font-family: geared_slabthin;
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 1.8em;
 	letter-spacing: .1rem;
 	padding: 0px;
-	margin:0px;
+	margin: 0px;
+	color: #212121;
 }
 
-#blocjaune h2
+header h2
 {
+	text-transform:none;
+	font-weight:normal;
+}
+
+#blocgauche h2 {
 	text-align: center;
-	color: #feca07;
+	color: #FFFFFF;
 	margin: 0px;
 }
 
-.parcours h2
-{
+#blocgauche p {
+	margin-top:30px;
+}
+
+.parcours h2 {
+	font-weight:bold;
 	text-align: left;
-	color: #404040;
+	color: #212121;
 	margin-bottom: 50px;
 }
 
 h3 {
+	font-size:1.4em;
+	margin-top: 0px;
+	margin-bottom:10px;
 	text-transform: uppercase;
 	line-height: 1.1em;
-	color: #4a4a4a;
+	color: #212121;
 }
 
-h4 
-{
-	font-size:1,2em;
+h4 {
+	font-size: 1.1em;
 	text-transform: initial;
 	line-height: 1em;
-	color: #4a4a4a;
+	color: #212121;
 }
 
 b {
 	line-height: 0.3em;
-	color: #4a4a4a;
+	color: #212121;
 }
 
-em 
-{
+em {
 	line-height: 0.3em;
-	color: #4a4a4a;
-	font-style:normal;
+	font-style: normal;
+}
+
+em #blocgauche
+{
+	color: #757575;
+}
+
+em .info
+{
+	color: black;
 }
 
 a {
-	color: #4a4a4a;
-	text-decoration:none;
+	text-decoration: none;
+}
+
+#blocgauche a {
+	color: #FFFFFF;
+}
+
+article a {
+	color: #757575;
 }
 
 ul {
@@ -109,7 +151,7 @@ ul {
 	padding-left: 0px;
 	font-size: 1.1em;
 	line-height: 1.1em;
-	color: #4a4a4a;
+	color: #757575;
 }
 
 .bandeau {
@@ -117,34 +159,71 @@ ul {
 	text-decoration: none;
 	padding-top: 2%;
 	padding-bottom: 1%;
-	background-color: #404040;
+	background-color: #536DFE;
 }
 
-p {
-	color: #4a4a4a;
-	font-size:1.1em;
+p, .lieu {
+	color: #757575;
+	font-size: 1.1em;
 	line-height: 0,3;
 	font-style: normal;
 	font-family: Arial, sans-serif;
 }
 
-.textecolonne p,h4 
-{
-	margin-left: 10%;
-	margin-right: 10%;
+.textecolonne p, .contact {
+	margin-left: 15%;
+	margin-right: 15%;
+	color: #FFFFFF;
+}
+
+.chef {
+	margin-top : 10px;
+	margin-bottom:5px;
+}
+
+.chef .info {
+		color: #757575;
+	}
+
+.lieu .fa-stack {
+	font-size: 0.6em;
+	margin-right: 20px;
+	margin-top: 0px;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:1.2em;
+	line-height: 1em;
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#757575;
+}
+
+h6 {
+	font-weight: bold;
+	font-size: 1em;
+	font-weight:normal;
+	line-height: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #757575;
+}
+
+article em {
+	font-weight: bold;
+	color: #757575;
 }
 
 
 /*blocs */
-
-body
-{
+body {
 	background-color: white;
-	font-family: arial, verdana, sans-serif;
 	font-size: 1em;
-	font-weight:normal;
+	font-weight: normal;
 	margin: 0px;
-	max-width:1190px;
+	max-width: 1400px;
 }
 
 header
@@ -154,8 +233,8 @@ header
 	align-items: center;
 	margin: auto;
 	margin-top: 120px;
-	margin-bottom: 100px;
-	max-width: 1190px;
+	margin-bottom: 120px;
+	max-width: 1390px;
 }
 
 #blocpage
@@ -165,12 +244,12 @@ header
 	display: flex;
 }
 
-#blocjaune
+#blocgauche
 {
 	display: inline-block;
 	width: 385px;
 	max-height: 100%;
-	background-color: #feca07;
+	background-color: #795548;
 }
 
 .textecolonne
@@ -178,25 +257,39 @@ header
 	margin-bottom: 50px;
 }
 
+.coordonnees {
+	margin-top: 20px;
+}
+
 #parcours
 {
 	display: inline-block;
 	margin-right: 45px;
 	margin-left: 65px;
-	width: 700px;
+	width: 900px;
 }
 
-.XP
+article
 {
 	display: flex;
 	margin-bottom: 20px;
+	vertical-align:top;
 }
 
 .lieu
 {
-	display: inline-block;
+	display: flex;
 	width: 30%;
 	margin-right:3%;
+}
+
+.puce{
+	display:flex;
+}
+
+.ville
+{
+	display: flex;
 }
 
 section
@@ -210,12 +303,34 @@ section
 	margin-bottom: 50px;
 }
 
+.XP
+{
+	display:inline-block;
+	vertical-align:top;
+}
+
 .info
 {
 	display: inline-block;
 	vertical-align: top;
 	width: 67%;
 }
+
+.reco {
+	display: flex;
+	vertical-align: top;
+}
+
+.ligne {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+section.reco article {
+	width: 50%;
+}
+
 
 
 /* Objets */
@@ -226,13 +341,12 @@ section
 	justify-content: center;
 }
 
-#photo img
-{
-	border-radius: 50%;
-	border : 6px #daaf12 solid;
-	width: 215px;
-	margin-top: 70px;
-	margin-bottom: 45px;
+#photo img {
+		border-radius: 50%;
+		border: 6px #5D4037 solid;
+		width: 215px;
+		margin-top: 70px;
+		margin-bottom: 45px;
 }
 
 #nom
@@ -245,46 +359,54 @@ section
 }
 
 
-#parcours i.fas 
-{
-	color: #feca07;
+#parcours i.fas {
+	color: #536DFE;
+	padding-top:4px;
 }
 
-
-
-#blocjaune i.fas 
-{
-	color: #404040;
+.far {
+	color: #536DFE;
 }
 
-#blocjaune i.far {
-	color: #404040;
+.puce .fas, .lieu .fa-stack {
+	font-size: 10px;
+	margin-right: 10px;
 }
 
-#loisirs
-{
-	display:flex;
-	justify-content:space-around;
-	width: 60%;
+#blocgauche i.fas {
+	color: #D7CCC8;
+}
+
+#blocgauche i.far {
+	color: #D7CCC8;
+}
+
+.puce .far {
+	padding-top: 3px;
+}
+
+#loisirs {
+	display: flex;
 	width: 100%;
 	margin-top: 20px;
+	justify-content: space-between;
 }
 
-
-.trait
-{
+.trait {
 	display: flex;
-	border : 1px #feca07 solid;
+	border: 1px #795548 solid;
+	margin-bottom: 30px;
 }
 
-.far
-{
-	color: #feca07;
+#loisirs .fa-stack {
+	margin-top:20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 40px;
 }
 
 /* RESPONSIVE */
-@media all and (min-width: 992px) and (max-width: 1200px)
-{
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 	h1
 	{
 		font-size: 4em;
@@ -293,6 +415,15 @@ section
 	h2
 	{
 		font-size: 1.5em;
+	}
+
+	h5
+	{
+		font-size:1em;
+	}
+
+	h6{
+		font-size:1em;
 	}
 
 	p
@@ -307,8 +438,17 @@ section
 	}
 }
 
-@media all and (min-width: 768px) and (max-width: 991px)
+@media screen and (min-width: 900px) and (max-width: 991px)
 {
+	article {
+		width: auto;
+		flex-direction: row;
+	}
+
+	section.reco .info {
+		width : 100%;
+	}
+	
 	h1 {
 		font-size: 3.5em;
 	}
@@ -317,36 +457,46 @@ section
 		font-size: 1.3em;
 	}
 
-	h3
-	{
-		font-size:1.1em;
+	h3 {
+		font-size: 1.1em;
+	}
 
+	h5 {
+		font-size: 0.9em;
+	}
+
+	h6 {
+		font-size: 0.8em;
 	}
 
 	em
 	{
-		font-size:0.9em;
+		font-size:1em;
+	}
+
+	.puce .fas, .lieu .fa-stack {
+		font-size: 7px;
+		margin-right: 7px;
 	}
 
 	p {
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	ul {
-		font-size: 0.8em;
+		font-size: 1em;
 		line-height: 1.3em;
 	}
 }
 
-@media all and (max-device-width: 768px) and (max-width: 768px) 
-{
+@media screen and (min-width: 300px) and (max-width: 899px) {
 	#blocpage {
 		width: auto;
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
-	#blocjaune, #parcours {
-		width: 100%;
+	#blocgauche, #parcours {
+		width: auto;
 	}
 
 	#parcours {
@@ -354,8 +504,33 @@ section
 		margin-left: 5%;
 	}
 
+	.coordonnees {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	.contact {
+		width: 25%;
+		min-width: 20%;
+		max-width: 50%;
+		margin: 20px;
+		justify-content: space-around;
+		border: solid 2px red;
+	}
+
+	header{
+		margin-left:30%;
+	}
+
 	.lieu {
 		width: 25%;
+	}
+
+	.ville {
+		font-size: 0.7em;
 	}
 
 	.info {
@@ -374,12 +549,26 @@ section
 		font-size: 1.1em;
 	}
 
+	h5 {
+		font-size: 1em;
+	}
+
+	h6 {
+		font-size: 1em;
+	}
+
 	em {
 		font-size: 0.9em;
 	}
 
+	.puce .fas, .lieu .fa-stack {
+		font-size: 5px;
+		margin-right: 5px;
+	}
+
 	p {
-		font-size: 0.8em;
+		font-size: 0.9em;
+		line-height:1.3em;
 	}
 
 	ul {
