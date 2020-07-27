@@ -1,8 +1,10 @@
 ﻿<!DOCTYPE html>
-<html><head>
+<html>
+	<head>
 		<meta charset="utf-8" />
 		<title>Romain Digue - CV</title>
 		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width="device-width" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/07833c3c94.js" crossorigin="anonymous"></script>
 	</head>
@@ -11,13 +13,13 @@
 	  	<div id="blocpage">
 
 	  		<div id="blocgauche">
-	  			<div id="photo">
+	  			<div class="photo">
 	  				<img src="images/rdigue_photo_mini.jpg" alt="Romain Digue" />
 	  			</div>
 
 				<div class="textecolonne">
 					<div class="bandeau">
-						<h2>Contact</h2>
+						<h2 class="bandeau">Contact</h2>
 					</div>
 					<div class="coordonnees">
 						<div class="contact">
@@ -37,13 +39,13 @@
 						<div class="contact">
 							<em>
 								E-mail<br>
-								<a href="mailto:romaindigue@gmail.com"> romaindigue@gmail.com</a>
+								<a class="colgauche" href="mailto:romaindigue@gmail.com"> romaindigue@gmail.com</a>
 							</em>
 						</div>
 						<div class="contact">
 							<em>
 								Site web<br>
-								<a href="https://www.romaindmoostik.fr"> romaindmoostik.fr </a>
+								<a class="colgauche" href="https://www.romaindmoostik.fr" target="_blank"> romaindmoostik.fr </a>
 							</em>
 						</div>
 
@@ -58,20 +60,20 @@
 
 	  	<div class="textecolonne">
 	  		<div class="bandeau">
-	  			<h2>à propos de moi</h2>
+				<h2 class="bandeau">à propos de moi</h2>
 	  		</div>
-	  		<p>
-	  			Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.
-	  		</p>
+			<p>
+				Rennais et étudiant Openclassrooms en développement web. Passionné de l'Image, designer graphique et illustrateur freelance. 
+			</p>
 	  	</div>
 
 	  	<div class="textecolonne">
 	  		<div class="bandeau">
-	  			<h2>Loisirs</h2>
+				<h2 class="bandeau">Loisirs</h2>
 	  		</div>
 
 	  		<div id="loisirs">
-	  			<span class="fa-stack fa-3x">
+	  			<span class="fa-stack fa-2x">
 	  				<i class="fas fa-video fa-stack-1x"></i>
 	  				<i class="far fa-circle fa-stack-2x"></i>
 	  			</span>
@@ -91,87 +93,125 @@
 
 	  	<div id="parcours">
 	  		<header>
+				<div class="resp">
+						<img src="images/rdigue_photo_mini.jpg" alt="Romain Digue" />
+				</div>
+
 	  			<div id="nom">
-	  				<h1><span id="prenom">Romain</span> Digue</h1>
-	  				<h2><span id="surligne">Dével</span>oppeur Web & Graphiste freelance</h2>
+	  				<h1 class="nom"><span id="prenom">Romain</span> Digue</h1>
+	  				<h2 class="job"><span id="surligne">Dével</span>oppeur Web & Graphiste freelance</h2>
 	  			</div>
 	  		</header>
 
-	  		<section class="formation">
-	  			<h2><i class="fas fa-award fa-1,5x"></i> Formation</h2>
-	  			<div class="trait"></div>
+			<section class="formation">
+				<h2 class="parcours"><i class="fas fa-graduation-cap"></i> Formation</h2>
+				<hr class="traitjaune"/>
 
-	  			<article class="ecole">
-	  				<div class="lieu">
-	  					<div class="puce">
-	  						<i class="fas fa-circle"></i>
-	  					</div>
+				<article class="ecole">
+					<div class="lieu">
+						<div class="puce">
+							<i class="fas fa-circle"></i>
+						</div>
 
-	  					<div class="ville">
-	  						<h6>
-	  							2012 <br />
-	  							Nantes (44)
-	  						</h6>
-	  					</div>
-	  				</div>
+						<div class="ville">
+							<h6 class="ville">
+								2020 <br />
+								Rennes (35)
+							</h6>
+						</div>
+					</div>
 
-	  				<div class="info">
-	  					<h3>Graphicreatis</h3>
-	  					<p>
-	  						Certificat d’études Supérieures en Création Visuelle
-	  					</p>
-	  				</div>
-	  			</article>
+					<div class="info">
+						<h3 class="boite">OpenClassrooms</h3>
+						<p>
+							<em class="poste">Développeur web junior</em>
+						</p>
+						<p>
+							Formation à distance de développement web.
+						</p>
+					</div>
+				</article>
 
-	  			<article class="ecole">
-	  				<div class="lieu">
-	  					<div class="puce">
-	  						<i class="fas fa-circle"></i>
-	  					</div>
+				<article class="ecole">
+					<div class="lieu">
+						<div class="puce">
+							<i class="fas fa-circle"></i>
+						</div>
 
-	  					<div class="ville">
-	  						<h6>
-	  							2012 <br />
-	  							Nantes (44)
-	  						</h6>
-	  					</div>
-	  				</div>
+						<div class="ville">
+							<h6 class="ville">
+								2012 <br />
+								Nantes (44)
+							</h6>
+						</div>
+					</div>
 
-	  				<div class="info">
-	  					<h3>Graphicreatis</h3>
-	  					<p>
-	  						Mise à niveau en Arts Appliqués
-	  					</p>
-	  				</div>
-	  			</article>
+					<div class="info">
+						<h3 class="boite">Graphicreatis</h3>
+						<p>
+							<em class="poste">Graphisme & Création visuelle </em> <br />
+						</p>
+						<p>
+								Certificat d’études Supérieures en Création Visuelle
+						</p>
+					</div>
+				</article>
 
-	  			<article class="ecole">
-	  				<div class="lieu">
-	  					<div class="puce">
-	  						<i class="fas fa-circle"></i>
-	  					</div>
+				<article class="ecole">
+					<div class="lieu">
+						<div class="puce">
+							<i class="fas fa-circle"></i>
+						</div>
 
-	  					<div class="ville">
-	  						<h6>
-	  							2008 <br />
-	  							Vitré (35)
-	  						</h6>
-	  					</div>
-	  				</div>
+						<div class="ville">
+							<h6 class="ville">
+								2012 <br />
+								Nantes (44)
+							</h6>
+						</div>
+					</div>
 
-	  				<div class="info">
+					<div class="info">
+						<h3 class="boite">Graphicreatis</h3>
+						<p>
+							<em class="poste">Graphisme & Création visuelle </em>
+						</p>
+						<p>
+							Mise à niveau en Arts Appliqués
+						</p>
+					</div>
+				</article>
 
-	  					<h3>Lycée Bertrand D'Argentré</h3>
-	  					<p>
-	  						Bac Littéraire
-	  					</p>
-	  				</div>
-	  			</article>
-	  		</section>
+				<article class="ecole">
+					<div class="lieu">
+						<div class="puce">
+							<i class="fas fa-circle"></i>
+						</div>
+
+						<div class="ville">
+							<h6 class="ville">
+								2008 <br />
+								Vitré (35)
+							</h6>
+						</div>
+					</div>
+
+					<div class="info">
+
+						<h3 class="boite">Lycée Bertrand D'Argentré</h3>
+						<p>
+							<em class="poste">Lycée </em>
+						</p>
+						<p>
+							Bac Littéraire
+						</p>
+					</div>
+				</article>
+			</section>
 
 	  		<section class="experience">
-	  			<h2><i class="fas fa-briefcase fa-1,5x"></i> Expérience  professionnelle</h2>
-	  			<div class="trait"></div>
+				<h2 class="parcours"><i class="fas fa-briefcase"></i> Expérience  professionnelle</h2>
+	  			<hr class="traitjaune"/>
 
 	  			<article class="boite">
 	  				<div class="lieu">
@@ -183,15 +223,15 @@
 	  					</div>
 
 	  					<div class="ville">
-	  						<h6>
-	  							2018 - Poste Actuel <br />
-	  							Rennes (35)
-	  						</h6>
+							<h6 class="ville">
+								2018 - Poste Actuel <br />
+								Rennes (35)
+							</h6>
 	  					</div>
 	  				</div>
 
 	  				<div class="info">
-	  					<h3>Romain D Moostik <br></h3>
+						<h3 class="boite">Romain D Moostik</h3>
 	  					<p>
 	  						<em>Graphiste - illustrateur - motion Designer en freelance</em>
 	  						<ul>
@@ -199,10 +239,10 @@
 	  							<li>Création de medias de communication visuelle : logos, affiches, brochures etc.</li>
 	  							<li>Création d’illustrations.</li>
 	  						</ul>
+
 	  					</p>
 	  				</div>
 	  			</article>
-
 
 	  			<article class="boite">
 	  				<div class="lieu">
@@ -211,15 +251,15 @@
 	  					</div>
 
 	  					<div class="ville">
-	  						<h6>
-	  							2016-2018 <br />
-	  							Rennes (35)
-	  						</h6>
+							<h6 class="ville">
+								2016-2018 <br />
+								Rennes (35)
+							</h6>
 	  					</div>
 	  				</div>
 
 	  				<div class="info">
-	  					<h3>L’Oeil au carré</h3>
+						<h3 class="boite">L’Oeil au carré</h3>
 	  					<p>
 	  						<em>Graphiste - illustrateur - motion designer</em>
 	  						<ul>
@@ -228,6 +268,7 @@
 	  							<li>Veille et Rédaction d’articles de blog</li>
 	  						</ul>
 	  					</p>
+
 	  				</div>
 	  			</article>
 
@@ -238,15 +279,15 @@
 	  					</div>
 
 	  					<div class="ville">
-	  						<h6>
-	  							2012-2016 <br />
-	  							Paris (75)
-	  						</h6>
+							<h6 class="ville">
+								2012-2016 <br />
+								Paris (75)
+							</h6>
 	  					</div>
 	  				</div>
 
 	  				<div class="info">
-	  					<h3>Topito</h3>
+						<h3 class="boite">Topito</h3>
 	  					<p>
 	  						<em>Graphiste web & vidéo </em>
 	  						<ul>
@@ -255,6 +296,7 @@
 	  							<li>Veille et rédaction de contenu pour un site de divertissement.</li>
 	  						</ul>
 	  					</p>
+
 	  				</div>
 	  			</article>
 	  			<article class="boite">
@@ -264,15 +306,15 @@
 	  					</div>
 
 	  					<div class="ville">
-	  						<h6>
-	  							2012 <br />
-	  							Nantes (44)
-	  						</h6>
+							<h6 class="ville">
+								2012 <br />
+								Nantes (44)
+							</h6>
 	  					</div>
 	  				</div>
 
 	  				<div class="info">
-	  					<h3>Studio Kumorfos</h3>
+						<h3 class="boite">Studio Kumorfos</h3>
 	  					<p>
 	  						<em>Graphiste Illustrateur</em>
 	  						<ul>
@@ -280,6 +322,7 @@
 	  							<li>Proposition de design et conception d’application mobile.</li>
 	  						</ul>
 	  					</p>
+
 	  				</div>
 	  			</article>
 
@@ -290,15 +333,15 @@
 	  					</div>
 
 	  					<div class="ville">
-	  						<h6>
-	  							2011 <br />
-	  							La Chapelle des Fougeretz (35)
-	  						</h6>
+							<h6 class="ville">
+								2011 <br />
+								La Chapelle des Fougeretz (35)
+							</h6>
 	  					</div>
 	  				</div>
 
 	  				<div class="info">
-	  					<h3>Magik Studio</h3>
+						<h3 class="boite">Magik Studio</h3>
 	  					<p>
 	  						<em>Graphiste illustrateur (3 mois)</em>
 	  						<ul>
@@ -306,6 +349,7 @@
 	  							<li>Création d’une série de 100 pictogrammes autour de l’univers de la Bretagne.</li>
 	  						</ul>
 	  					</p>
+
 	  				</div>
 	  			</article>
 
@@ -316,15 +360,15 @@
 	  					</div>
 
 	  					<div class="ville">
-	  						<h6>
-	  							2010 <br />
-	  							Vitré (35)
-	  						</h6>
+							<h6 class="ville">
+								2010 <br />
+								Vitré (35)
+							</h6>
 	  					</div>
 	  				</div>
 
 	  				<div class="info">
-	  					<h3>Morvan-Fouillet Imprimeurs</h3>
+						<h3 class="boite">Morvan-Fouillet Imprimeurs</h3>
 	  					<p>
 	  						<em>Maquettiste PAO (2 mois)</em>
 	  						<ul>
@@ -332,6 +376,7 @@
 	  							<li>Découverte de l’impression et du façonnage.</li>
 	  						</ul>
 	  					</p>
+
 	  				</div>
 	  			</article>
 	  		</section>
@@ -339,28 +384,30 @@
 
 
 	  		<section class="reco">
-	  			<h2><i class="fas fa-palette"></i> Recommandations</h2>
-	  			<div class="trait"></div>
+				<h2 class="parcours"><i class="fas fa-pencil-alt"></i> Recommandations</h2>
+	  			<hr class="traitjaune"/>
 	  			<div class="ligne">
 	  				<article class="chef">
 	  					<div class="info">
 	  						<p>
 	  							<h5>Michel Cremades</h5><br>
-	  							<em>Directeur : Sagmeister & Walsh</em><br>
-	  							<em>Téléphone : 08 36 65 65 65 </em><br>
-	  							Email : <a href="mailto:romaindigue@gmail.com">michel@sandw.com</a>
+	  							<em>Directeur : TWBA Alfortville </em><br>
+	  							<em>Téléphone : 06 32 21 61 65 </em><br>
+	  							Email : <a href="mailto:michel@tbwa.com">michel@tbwa.com</a>
 	  						</p>
+
 	  					</div>
 	  				</article>
 
-	  				<article class="chef">
+	  				<article class="chef"> 
 	  					<div class="info">
 	  						<p>
-	  							<h5>Michel Cremades</h5><br>
-	  							<em>Directeur : Sagmeister & Walsh</em><br>
+	  							<h5>Jessica Walsh</h5><br>
+	  							<em>Directrice : Sagmeister & Walsh</em><br>
 	  							<em>Téléphone : 08 36 65 65 65 </em><br>
-	  							Email : <a href="mailto:romaindigue@gmail.com">michel@sandw.com</a>
+	  							Email : <a href="mailto:jess@sandw.com">jess@sandw.com</a>
 	  						</p>
+
 	  					</div>
 	  				</article>
 	  			</div>
