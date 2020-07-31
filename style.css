@@ -6,9 +6,9 @@
 
 h1.nom
 {
-	font-size: 4.5em;
+	font-size: 4.2em;
 	line-height: 0.9em;
-	font-weight:bold;
+	font-weight: 300;
 	text-transform:uppercase;
 	margin-top:15px;
 	margin-bottom:15px;
@@ -22,6 +22,7 @@ h1, h1+p
 #prenom 
 {
 	color: #ffca28;
+	font-weight: 500;
 }
 
 #surligne {
@@ -29,7 +30,7 @@ h1, h1+p
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 1.7em;
 	letter-spacing: .1rem;
 	padding: 0px;
 	margin: 0px;
@@ -38,22 +39,21 @@ h2 {
 h2.job {
 	color: #404040;
 	text-transform: none;
-	font-weight: bold;
+	font-weight: 500;
+	letter-spacing: .03rem;
+
 }
 
 h2.parcours {
 	text-transform: uppercase;
 }
 
-h2.bandeau {
-	text-transform: uppercase;
-	color: #fff;
-}
-
 #blocgauche h2 {
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffca28;
 	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
 #blocgauche p {
@@ -61,26 +61,31 @@ h2.bandeau {
 }
 
 .parcours h2 {
-	font-weight:bold;
+	font-weight: bold;
 	text-align: left;
-	color: #212121;
+	color: #404040;
 	margin-bottom: 50px;
 }
 
 h3 {
-	font-size:1.4em;
+	font-size: 1.4em;
 	margin-top: 0px;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 	line-height: 1.1em;
-	color: #212121;
+	color: #404040;
 }
 
 h4 {
 	font-size: 1.1em;
+	font-weight: 500;
 	text-transform: initial;
 	line-height: 1em;
-	color: #212121;
+	color: #404040;
+}
+
+h4.poste{
+	margin-bottom: 10px;
 }
 
 b {
@@ -101,10 +106,6 @@ em #blocgauche
 em .info
 {
 	color: black;
-}
-
-em.poste{
-	margin-bottom: 10px;
 }
 
 a {
@@ -130,7 +131,7 @@ ul {
 .bandeau {
 	text-align: center;
 	text-decoration: none;
-	padding-top: 2%;
+	padding-top: 1.5%;
 	padding-bottom: 1%;
 	background-color: #404040;
 }
@@ -158,6 +159,10 @@ p, .lieu {
 .chef .info {
 		color: #404040;
 	}
+
+article em, a {
+	line-height: 1.5em;
+}
 
 h5 {
 	text-transform: uppercase;
@@ -330,22 +335,19 @@ section.reco article {
 	padding-left: 0%;
 }
 
-#parcours i.fas {
+h2.parcours i.fas {
 	color: #ffca28;
+	margin-right: 25px;
 }
 
-.lieu .fa-stack{
-	color: #ffca28;
+.puce {
 	margin-right: 10px;
-	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.puce .fas, .fa-stack {
+	color: #ffca28;
 	font-size: .6em;
-}
-
-.lieu .fas {
-	color: #ffca28;
-	margin-right: 10px;
-	margin-right: 20px;
-	font-size: .8em;
 }
 
 hr.traitjaune {
@@ -522,6 +524,10 @@ hr.traitjaune {
 		font-size: 1.1em;
 	}
 
+	h4 {
+		font-size: .9em;
+	}
+
 	h5 {
 		font-size: 1em;
 	}
@@ -535,7 +541,7 @@ hr.traitjaune {
 	}
 
 	.puce .fas, .lieu .fa-stack {
-		font-size: 5px;
+		font-size: .4em;
 		margin-right: 5px;
 	}
 
