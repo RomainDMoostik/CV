@@ -170,7 +170,7 @@ h5 {
 	font-size:1.2em;
 	line-height: 1em;
 	margin-top:0px;
-	margin-bottom:0px;
+	margin-bottom:20px;
 	color:#404040;
 }
 
@@ -530,6 +530,7 @@ hr.traitjaune {
 
 	h5 {
 		font-size: 1em;
+		margin-top: 40px;
 	}
 
 	h6 {
